@@ -1,18 +1,37 @@
 # 0x02_vi
-root@ ls
-beginning_of_the_line  cutting  end_of_the_line  exiting  inserting  pasting  undoing
-root@ cat beginning_of_the_line
+
+`beginning_of_the_line`  `cutting`  `end_of_the_line`  `exiting`  `inserting`  `pasting`  `undoing`
+
+> beginning_of_the_line
+```bash
 0
-root@ cat cutting
+```
+#
+> cutting
+```bash
 dd
-root@ cat end_of_the_line
-$
-root@ cat exiting
+```
+#
+> exiting
+```bash
 :q!
-root@ cat inserting
+```
+#
+> inserting
+```bash
 i
-root@ cat pasting
+```
+#
+> pasting
+```bash
 p
-root@ cat undoing
+```
+#
+> undoing
+```bash
 u
-root@
+```
+#
+> end_of_the_line
+```bash
+$
